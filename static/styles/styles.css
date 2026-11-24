@@ -15,3 +15,45 @@ h1, h2, h3, h4,h5, h6 {
 img {
     max-width: 100%;
 }
+
+.border_red {
+    border: 1px solid red;
+}
+
+.wrapper {
+    max-width: 1141px;
+    margin:  0px auto;
+}
+.main-section {
+    background-color: #F2F7FF;
+    border-radius: 32px;
+}
+.main-section header {
+    margin: 32px 36px;
+}
+.header-logo {
+    position: relative;
+    display: inline-block;
+}
+.header-logo img {
+    position: absolute;
+    right: -46px;
+    top: -18px;
+}
+.header-logo h1 {
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: 32px;
+    background: linear-gradient(
+            to right bottom,
+            #3a8ef6,
+            #2f7ffd,
+            #3b6eff,
+            #5358ff,
+            #6f3afa
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
