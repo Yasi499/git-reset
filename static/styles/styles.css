@@ -30,6 +30,8 @@ img {
 }
 .main-section header {
     margin: 32px 36px;
+    display: flex;
+    justify-content: space-between;
 }
 .header-logo {
     position: relative;
