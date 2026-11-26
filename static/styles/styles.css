@@ -161,3 +161,23 @@ img {
     display: inline-flex;
     margin-top: 40px;
 }
+
+
+.main-content-plus-one,
+.main-content-plus-two,
+.main-content-plus-three,
+.main-content-plus-four {
+    animation: plus-orbit 6s linear infinite;
+}
+.main-content-plus-two,
+.main-content-plus-four {
+    animation-direction: reverse;
+}
+@keyframes plus-orbit {
+    from {
+        transform: rotate(0deg) translateX(12px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(12px) rotate(-360deg);
+    }
+}
