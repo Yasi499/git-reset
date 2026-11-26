@@ -141,25 +141,28 @@ img {
 }
 
 .main-content-name {
-    margin-top: 60px;
-    font-size: 22px;
-    color: #1BB5AC;
+    margin-top: 90px;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 500;
+    color: #00BFA6;
 }
 .main-content-title {
-    margin-top: 16px;
-    font-size: 56px;
-    line-height: 1.2;
-    color: #14183E;
+    margin-top: 24px;
+    font-size: 48px;
+    line-height: 58px;
+    color: #071735;
 }
 .main-content-text {
+    max-width: 524px;
     margin-top: 24px;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 24px;
     color: #6C87AE;
 }
 .main-content-button {
     display: inline-flex;
-    margin-top: 40px;
+    margin-top: 24px;
 }
 
 
