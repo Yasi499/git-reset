@@ -166,17 +166,17 @@ img {
 .main-content-plus-two,
 .main-content-plus-three,
 .main-content-plus-four {
-    animation: plus-rotate 8s linear infinite;
+    animation: plus-orbit 6s linear infinite;
 }
 .main-content-plus-two,
 .main-content-plus-four {
     animation-direction: reverse;
 }
-@keyframes plus-rotate {
+@keyframes plus-orbit {
     from {
-        transform: rotate(0deg);
+        transform: rotate(0deg) translateX(12px) rotate(0deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(360deg) translateX(12px) rotate(-360deg);
     }
 }
