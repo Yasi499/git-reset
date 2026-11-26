@@ -70,6 +70,11 @@ img {
     color: #6C87AE;
     opacity: 0.8;
     text-decoration: none;
+    transition: color 0.2s, opacity 0.2s;
+}
+.header-navigate a:hover {
+    color: #3A8EF6;
+    opacity: 1;
 }
 .header-navigate a.active {
     color: #3A8EF6;
@@ -88,6 +93,11 @@ img {
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+.header-button:hover {
+    box-shadow: 0px 12px 28px rgba(65, 132, 247, 0.4);
+    transform: translateY(-2px);
 }
 .header-button img {
     width: 24px;
