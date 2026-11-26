@@ -115,6 +115,19 @@ img {
     border: 1px solid green;
     position: relative;
 }
+.main-content-circle {
+    position: absolute;
+    left: -26px;
+    top: 10px;
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    background: linear-gradient(109deg, #3A8EF6 10.84%, #6F3AFA 196.74%);
+}
+.main-content-slide {
+    position: relative;
+    display: block;
+}
 .main-content-plus-one {
     position: absolute;
     left: 100px;
