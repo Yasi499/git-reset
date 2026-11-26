@@ -139,3 +139,25 @@ img {
     top: 91px;
     width: 27px;
 }
+
+.main-content-name {
+    margin-top: 60px;
+    font-size: 22px;
+    color: #1BB5AC;
+}
+.main-content-title {
+    margin-top: 16px;
+    font-size: 56px;
+    line-height: 1.2;
+    color: #14183E;
+}
+.main-content-text {
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #6C87AE;
+}
+.main-content-button {
+    display: inline-flex;
+    margin-top: 40px;
+}
