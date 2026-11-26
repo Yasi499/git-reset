@@ -161,30 +161,3 @@ img {
     display: inline-flex;
     margin-top: 40px;
 }
-
-.main-content-plus-one,
-.main-content-plus-two,
-.main-content-plus-three,
-.main-content-plus-four {
-    animation: plus-fly 20s linear infinite;
-}
-.main-content-plus-one {
-    transform-origin: 172px 245px;
-}
-.main-content-plus-two {
-    transform-origin: 332px 4px;
-}
-.main-content-plus-three {
-    transform-origin: -103px -217px;
-}
-.main-content-plus-four {
-    transform-origin: -188px 126px;
-}
-@keyframes plus-fly {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
