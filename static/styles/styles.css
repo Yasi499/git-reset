@@ -103,3 +103,39 @@ img {
     width: 24px;
     height: 24px;
 }
+
+.main-content {
+    border: 1px solid blue;
+    margin-top: 108px;
+    display: flex;
+    gap: 52px;
+}
+.main-content-column {
+    width: 50%;
+    border: 1px solid green;
+    position: relative;
+}
+.main-content-plus-one {
+    position: absolute;
+    left: 100px;
+    top: -28px;
+    width: 88px;
+}
+.main-content-plus-two {
+    position: absolute;
+    left: -69px;
+    top: 213px;
+    width: 69px;
+}
+.main-content-plus-three {
+    position: absolute;
+    left: 375px;
+    top: 434px;
+    width: 44px;
+}
+.main-content-plus-four {
+    position: absolute;
+    left: 460px;
+    top: 91px;
+    width: 27px;
+}
